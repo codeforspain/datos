@@ -424,6 +424,125 @@ th {
 }
 
 
-//Estilos
+/* Code for Spain - Mobile first
+   ========================================================================== */
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.datos-container {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.datos-logo {
+  display: block;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.datos-titulos {
+  margin-top: 0;
+}
+
+.datos-redes-sociales,
+.datos-contenedor-texto {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.datos-redes-sociales {
+  width: 15%;
+  vertical-align: top;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+.datos-contenedor-texto {
+  width: 84%;
+}
+
+.datos-github,
+.datos-twitter,
+.datos-slack {
+  margin-top: 25px;
+}
+
+.datos-contacta {
+  text-decoration: none;
+  color: #287CB5;
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.datos-contenedor-texto .datos-contacta {
+  display: inline-block;
+}
+
+.datos-input {
+  box-sizing: border-box;
+  height: 39px;
+  width: 100%;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.datos-btn {
+  border: 0;
+  background-color: #0C6CA9;
+  color: #fff;
+  box-sizing: border-box;
+  padding: 10px 30px;
+  vertical-align: top;
+  width: 100%;
+  display: block;
+}
+
+/* ==========================================================================
+Media Queries Mobile first styles.
+
+========================================================================== */
+/* ===== == = === desde 30em (480px) === = == ===== */
+
+@media screen and (min-width:31.5em) {
+
+}
+
+/* ===== == = === desde 48em (768px) === = == ===== */
+@media only screen and (min-width:48em) {
+  .datos-container {
+    width: 70%;
+  }
+
+  .datos-input,
+  .datos-btn {
+    display: inline-block;
+    width: 40%;
+  }
+
+  .datos-btn {
+    width: 50%;
+  }
+}
+
+/* ===== == = === 64em (1024px) === = == ===== */
+@media only screen and (min-width:64em) {
+  .datos-container {
+    width: 50%;
+  }
+
+  .datos-redes-sociales {
+    max-width: 64px;
+  }
+}
+
 
 
